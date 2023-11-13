@@ -1,0 +1,25 @@
+.list ul.open {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: #f3e8c2 !important;
+}
+.list span,
+.list li * {
+  color: var(--white);
+}
+
+.list ul ul {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6295FF 0%, #296FFF 100%);
+  margin-bottom: 8px;
+}
+
+.list ul ul div div div a:hover {
+  background: linear-gradient(90deg, #88AFFF 0%, #73a2ff 100%);
+}
+.list ul ul div div div a[aria-current="page"] {
+  background: linear-gradient(90deg, #88AFFF 0%, #296FFF 100%);
+}
